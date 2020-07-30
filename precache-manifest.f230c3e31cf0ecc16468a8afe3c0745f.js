@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "66f7853c35f0a47dc1dd0164734f11f5",
+    "revision": "f335cc00f692305f1e11148fcbf2a5ce",
     "url": "./index.html"
   },
   {
-    "revision": "c798492e7419fcfeb0a5",
-    "url": "./static/css/main.7c796beb.chunk.css"
+    "revision": "e728041d857f2d83c358",
+    "url": "./static/css/main.b148c046.chunk.css"
   },
   {
     "revision": "2dccce6a023ac7bdcd3d",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.75343c50.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c798492e7419fcfeb0a5",
-    "url": "./static/js/main.46ff7155.chunk.js"
+    "revision": "e728041d857f2d83c358",
+    "url": "./static/js/main.0a32fc81.chunk.js"
   },
   {
     "revision": "1610068e25a4810046d0",
@@ -44,11 +44,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/arrow-right.67be4a4a.svg"
   },
   {
-    "revision": "e80046fae67b5bcf3feffbc6baac09b9",
-    "url": "./static/media/fav_btn.e80046fa.svg"
-  },
-  {
     "revision": "0116d2fb3323cfcaabbf3d61747738bc",
     "url": "./static/media/iphone-mix-banner.0116d2fb.png"
+  },
+  {
+    "revision": "ba064880a8e6bce13a241bd23737f156",
+    "url": "./static/media/liked-items.ba064880.svg"
   }
 ]);

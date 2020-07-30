@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "./static/css/main.7c796beb.chunk.css",
-    "main.js": "./static/js/main.46ff7155.chunk.js",
-    "main.js.map": "./static/js/main.46ff7155.chunk.js.map",
+    "main.css": "./static/css/main.b148c046.chunk.css",
+    "main.js": "./static/js/main.0a32fc81.chunk.js",
+    "main.js.map": "./static/js/main.0a32fc81.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.e1f50cee.js",
     "runtime-main.js.map": "./static/js/runtime-main.e1f50cee.js.map",
     "static/js/2.75343c50.chunk.js": "./static/js/2.75343c50.chunk.js",
     "static/js/2.75343c50.chunk.js.map": "./static/js/2.75343c50.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.37ed3053b43b1f6bb95a74fce8fba22d.js": "./precache-manifest.37ed3053b43b1f6bb95a74fce8fba22d.js",
+    "precache-manifest.f230c3e31cf0ecc16468a8afe3c0745f.js": "./precache-manifest.f230c3e31cf0ecc16468a8afe3c0745f.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.7c796beb.chunk.css.map": "./static/css/main.7c796beb.chunk.css.map",
+    "static/css/main.b148c046.chunk.css.map": "./static/css/main.b148c046.chunk.css.map",
     "static/js/2.75343c50.chunk.js.LICENSE.txt": "./static/js/2.75343c50.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "./static/media/iphone-mix-banner.0116d2fb.png"
+    "static/media/App.scss": "./static/media/liked-items.ba064880.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e1f50cee.js",
     "static/js/2.75343c50.chunk.js",
-    "static/css/main.7c796beb.chunk.css",
-    "static/js/main.46ff7155.chunk.js"
+    "static/css/main.b148c046.chunk.css",
+    "static/js/main.0a32fc81.chunk.js"
   ]
 }
