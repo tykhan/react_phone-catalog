@@ -8,7 +8,7 @@ const App = () => (
     <header className="header">
       <a href="#">
         <img
-          src="../img/icons/logo.svg"
+          src="./img/icons/logo.svg"
           alt="logo"
           className="header__logo"
         />
@@ -31,10 +31,10 @@ const App = () => (
 
       <div className="header__shopping">
         <a href="#" className="header__favourites">
-          <img src="../img/icons/liked-items.svg" alt="favourites"/>
+          <img src="./img/icons/liked-items.svg" alt="favourites"/>
         </a>
         <a href="#" className="header__basket">
-          <img src="../img/icons/basket.svg" alt="basket"/>
+          <img src="./img/icons/basket.svg" alt="basket"/>
         </a>
       </div>
     </header>
@@ -411,7 +411,7 @@ const App = () => (
       <div className="footer__container container">
         <a href="#">
           <img
-            src="../img/icons/logo.svg"
+            src="./img/icons/logo.svg"
             alt="logo"
             className="footer__logo"
           />
