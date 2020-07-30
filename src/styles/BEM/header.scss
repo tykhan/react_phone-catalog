@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 1440px;
+  height: $headerHeight;
+  box-shadow: 0 1px 0 $GreyShadows;
+  
+  
+  &__logo {
+    padding: 24px 0;
+    margin-left: 24px;
+    
+  }
+
+  &__nav {
+    display: flex;
+    padding-left: 65px;
+  }
+
+  &__nav-item {
+    color: $GreySecondary;
+    font-weight: bold;
+    font-size: $headerFontSize;
+    line-height: 92%;
+    letter-spacing: 0.04em;
+    margin-right: 64px;
+    text-transform: uppercase;
+  }
+
+  &__link {
+    padding-bottom: $headerHeight / 2 - $headerFontSize + 4px;
+    padding-top: $headerHeight / 2 - $headerFontSize + 4px;
+    transition: color $transitionTime;
+
+    &:hover {
+      color: $GreyPrimary;
+    }
+
+    &_active {
+      font-weight: bold;
+      color: $GreyPrimary;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 39px;
+        height: 3px;
+        background-color: $GreyPrimary;
+      }
+    }
+  }
+
+  &__shopping {
+    display: flex;
+    right: 0;
+    position: absolute;
+    height: 100%;
+  }
+
+  &__basket {
+    display: flex;
+    padding: 0 24px;
+    border-right: 1px solid $GreyShadows;
+    transition: background-color $transitionTime;
+
+    &:hover {
+      background-color: $GreyHoverBackground;
+    }
+  }
+  &__favourites {
+    display: flex;
+    padding: 0 24px;
+    border-left: 1px solid $GreyShadows;
+    border-right: 1px solid $GreyShadows;
+    transition: background-color $transitionTime;
+
+    &:hover {
+      background-color: $GreyHoverBackground;
+    }
+  }
+}
