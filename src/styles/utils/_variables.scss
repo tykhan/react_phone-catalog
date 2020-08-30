@@ -10,7 +10,8 @@ $GreyElementsBorder: #b4bdc4;
 $transitionTime: 0.3s;
 
 $cardsWidth: 271px;
-$cardsGap: 16px;
+$cardsGapX: 16px;
+$cardsGapY: 40px;
 
 @mixin subTitleFont {
   font-weight: bold;

@@ -1,4 +1,5 @@
 .header {
+
   display: flex;
   align-items: center;
   position: relative;
@@ -50,7 +51,7 @@
         position: absolute;
         left: 0;
         bottom: 0;
-        width: 39px;
+        width: 100%;
         height: 3px;
         background-color: $GreyPrimary;
       }
@@ -64,10 +65,47 @@
     height: 100%;
   }
 
+  &__search {
+    position: relative;
+    border-left: 1px solid $GreyShadows;
+    width: 327px;
+
+    
+  }
+
+  &__search-input {
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: $GreyElementsBorder;
+    padding-left: 24px;
+    width: 100%;
+    height: 100%;
+    transition: background-color $transitionTime;
+
+    &:hover {
+      background-color: $GreyHoverBackground;
+    }
+  }
+
+  &__search-icon {
+    position: absolute;
+    top: calc(50% - 6px);
+    right: 15px;
+
+    transition: background-color $transitionTime, transform $transitionTime;
+
+    &:hover {
+      background-color: $GreyHoverBackground;
+      transform: scale(1.05);
+    }
+  }
+
   &__basket {
     display: flex;
     padding: 0 24px;
-    border-right: 1px solid $GreyShadows;
     transition: background-color $transitionTime;
 
     &:hover {

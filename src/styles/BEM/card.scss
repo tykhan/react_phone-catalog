@@ -1,17 +1,23 @@
 .card {
   display: flex;
   flex-direction: column;
+  margin-bottom: 40px;
 
   width: 272px;
   height: 507px;
   padding: 32px 24px 0;
 
   border: 1px solid $GreyShadows;
+  transition: box-shadow $transitionTime;
+
+  &:hover {
+    box-shadow: 0 3px 13px rgba(23, 32, 49, 0.26);
+  }
 
   &__row {
     display: grid;
     grid-template-columns: repeat(4, $cardsWidth);
-    grid-column-gap: $cardsGap;
+    grid-column-gap: $cardsGapX;
   }
 
   &__photo {
@@ -21,7 +27,8 @@
     transition: transform $transitionTime;
 
     &:hover {
-      transform: scale(1.2);
+      cursor: pointer;
+      transform: scale(1.1);
     }
   }
 
@@ -90,7 +97,6 @@
   }
 
   &__btn {
-    
     width: 176px;
     height: 100%;
 
