@@ -1,0 +1,50 @@
+.category-item {
+  width: 368px;
+
+  &__photo {
+    margin-bottom: 24px;
+    width: 100%;
+    height: 368px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+
+    &_item {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      transition: transform $transitionTime;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+
+    &_phones {
+      background-color: #fcdbc1;
+    }
+
+    &_tablets {
+      background-color: #8d8d92;
+    }
+
+    &_accessories {
+      background-color: #973d58;
+    }
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: $GreyPrimary;
+  }
+
+  &__models {
+    margin-top: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: $GreySecondary;
+  }
+}

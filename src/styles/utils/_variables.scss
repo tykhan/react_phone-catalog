@@ -1,0 +1,22 @@
+$headerHeight: 64px;
+$headerFontSize: 12px;
+
+$GreyPrimary: #313237;
+$GreySecondary: #89939a;
+$GreyShadows: #e2e6e9;
+$GreyHoverBackground: #fafbfc;
+$GreyElementsBorder: #b4bdc4;
+
+$transitionTime: 0.3s;
+
+$cardsWidth: 271px;
+$cardsGapX: 16px;
+$cardsGapY: 40px;
+
+@mixin subTitleFont {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 41px;
+  letter-spacing: -0.01em;
+  color: $GreyPrimary;
+}

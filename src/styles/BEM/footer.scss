@@ -1,0 +1,63 @@
+.footer {
+  box-shadow: 0 -1px 0 $GreyShadows;
+  max-width: 1440px;
+  margin: 40px auto 0;
+  height: 100px;
+
+  &__logo {
+    width: 50px;
+    margin-right: 50px;
+  }
+  
+  &__container {
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    
+  }
+
+  &__info {
+    margin: 0 auto;
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 92%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $GreySecondary;
+    
+    &_link {
+      transition: color $transitionTime;
+
+      &:hover {
+        color: $GreyPrimary;
+      }
+    }
+  }
+
+
+  &__to-top {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: $GreySecondary;
+
+    transition: color $transitionTime;
+
+    &:hover {
+      color: $GreyPrimary;
+    }
+  }
+
+  &__btn-top {
+    background: url(../../img/elements/arrow-right.svg) center no-repeat;
+    width: 32px;
+    height: 32px;
+    margin-left: 16px;
+    transform: rotate(-90deg);
+  }
+}

@@ -1,0 +1,41 @@
+@import "./styles/utils/reset.scss";
+@import "./styles/utils/normalize.scss";
+@import "./styles/utils/fonts.scss";
+@import "./styles/utils/variables.scss";
+@import "./styles/container.scss";
+@import "./styles/BEM/header.scss";
+@import "./styles/BEM/subtitle.scss";
+@import "hero";
+@import "./styles/BEM/switcher.scss";
+@import "hot-price";
+@import "./styles/BEM/card.scss";
+@import "category";
+@import "./styles/BEM/category-item.scss";
+@import "new-models";
+@import "./styles/BEM/footer.scss";
+@import "phones";
+@import "./styles/BEM/path.scss";
+@import "./styles/BEM/sort.scss";
+
+body {
+  font-family: Mont, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.border {
+  display: flex;
+  align-items: center;
+  border: 2px solid grey;
+  width: 100%;
+  justify-content: center;
+  max-width: 1440px;
+  background: $GreyShadows;
+  height: 150px;
+  font-size: 40px;
+  font-weight: 900;
+}

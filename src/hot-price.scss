@@ -1,0 +1,23 @@
+.hot-price {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 24px;
+  }
+
+  &__switcher {
+    display: flex;
+
+    &_left {
+      height: 32px;
+      width: 32px;
+    }
+
+    &_right {
+      width: 32px;
+      height: 32px;
+      margin-left: 16px;
+    }
+  }
+}

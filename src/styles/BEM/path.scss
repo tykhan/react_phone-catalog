@@ -1,0 +1,29 @@
+.path {
+  display: flex;
+  align-items: center;
+
+  &__home {
+    margin-right: 15px;
+    
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__arrow {
+    margin-right: 15px;
+  }
+
+  &__phones {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: $GreySecondary;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  
+}

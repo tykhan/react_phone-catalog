@@ -1,0 +1,129 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+
+  width: 272px;
+  height: 507px;
+  padding: 32px 24px 0;
+
+  border: 1px solid $GreyShadows;
+  transition: box-shadow $transitionTime;
+
+  &:hover {
+    box-shadow: 0 3px 13px rgba(23, 32, 49, 0.26);
+  }
+
+  &__row {
+    display: grid;
+    grid-template-columns: repeat(4, $cardsWidth);
+    grid-column-gap: $cardsGapX;
+  }
+
+  &__photo {
+    margin: 0 auto;
+    height: 208px;
+    width: 208px;
+    transition: transform $transitionTime;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+  }
+
+  &__name {
+    margin-top: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    color: $GreyPrimary;
+  }
+
+  &__price {
+    display: flex;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 140%;
+  }
+
+  &__old-price {
+    font-weight: normal;
+    margin-left: 8px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: $GreySecondary;
+  }
+
+  &__line {
+    margin-top: 6px;
+    height: 1px;
+    width: 100%;
+    background-color: $GreyShadows;
+  }
+
+  &__property-block {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__property-name {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: $GreySecondary;
+  }
+
+  &__screen {
+    margin-top: 16px;
+  }
+
+  &__property {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  &__capacity,
+  &__ram {
+    margin-top: 8px;
+  }
+
+  &__action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    height: 40px;
+  }
+
+  &__btn {
+    width: 176px;
+    height: 100%;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    background-color: $GreyPrimary;
+    color: white;
+    transition: box-shadow $transitionTime;
+
+    &:hover {
+      box-shadow: 0 3px 13px rgba(23, 32, 49, 0.26);
+    }
+  }
+
+  &__like {
+    background: url(../../img/icons/liked-items.svg) center no-repeat;
+    height: 100%;
+    width: 40px;
+    border: 1px solid $GreyElementsBorder;
+    outline: none;
+    cursor: pointer;
+    transition: border-color $transitionTime;
+
+    &:hover {
+      border-color: $GreyPrimary;
+    }
+  }
+}
